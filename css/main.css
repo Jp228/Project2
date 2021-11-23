@@ -15,8 +15,16 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+
 }
 
+span, p {
+  text-indent: 25px;
+}
+
+.customIndent {
+  margin-left: -15px;
+}
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
