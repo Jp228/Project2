@@ -18,10 +18,27 @@ html {
 
 }
 
-span, p {
-  text-indent: 25px;
+.space{
+  text-indent: 5px;
 }
 
+.indent {
+  text-indent: 50px;
+}
+.tabs{
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.tabs li{
+    margin: 0 10px;
+  padding: 0 10px;
+  border: 1px solid #AAA;
+  background: #ECECEC;
+  display: inline-block;
+}
 .customIndent {
   margin-left: -15px;
 }

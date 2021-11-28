@@ -1,52 +1,73 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html class="no-js" lang="">
+
 <head>
   <meta charset="UTF-8">
   <title>Part 1</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+ <link rel="icon" href="/img/pytest.png">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
 </head>
-<body>
-<ul>
+
+ <ul class = "tabs" style = "margin: 25px 0px">
     <li><a href="index.html">About Us</a></li>
     <li><a href="part1.html">Article 1</a></li>
-    <li><a href="part2.html">Our Products</a></li>
+    <li><a href="part2.html">Article 2</a></li>
+   <li><a href = "part3.html">Article 3</a></li>
+   <li><a href = "part4.html">Article 4</a></li>
   </ul>
-<h3> What is pylint? </h3>
-<p>Pylint is a tool used to check errors and warnings in python. Pylint tries to enforce a coding standard and looks for
+
+<body>
+
+<h3 class = "space"> What is pylint? </h3>
+<p class = "indent">Pylint is a tool used to check errors and warnings in python. Pylint tries to enforce a coding standard and looks for
   code smells. it can recommend suggestions about how particular blocks can be refactored. Pylint will display a number
   of messages as it analyzes the code. </p>
-<h3>Installing</h3>
-<p>A user can install pylint with a simple command → pip install pylint</p>
-<h3>Running pylint</h3>
-<p>Pylint checks for errors, tries to enforce a coding standard, and tries to enforce a coding style. A user can do all
+<h3 class = "space">Installing</h3>
+<p class = "indent">A user can install pylint with a simple command → pip install pylint</p>
+<h3 class = "space">Running pylint</h3>
+<p class = "indent">Pylint checks for errors, tries to enforce a coding standard, and tries to enforce a coding style. A user can do all
   of these with commands listed below.</p>
 <ul>Getting a report</ul>
-<li >Pylint filename.py</li>
+<li class = "indent">Pylint filename.py</li>
 <ul>Getting Warning</ul>
-<li >Pylint -rn filename.py</li>
+<li class = "indent">Pylint -rn filename.py</li>
 <ul>Getting errors</ul>
-<li>Pylint -E filename.py</li>
+<li class = "indent">Pylint -E filename.py</li>
 <ul>Running GUI</ul>
-<li>pylint-gui</li>
-<p>Pylint uses two types of extensions. To find a problem in the code, the first extension is checkers. Checkers can be
+<li class = "indent">pylint-gui</li>
+<p class = "indent">Pylint uses two types of extensions. To find a problem in the code, the first extension is checkers. Checkers can be
   used to find errors in the code. Secondly, there is also the concept of transform plugin, which represents a way
   through which the inference. A plugin is a module which should have a function register and takes the lint module as
   input. So a basic hello-world plugin can be implemented as: </p>
-<img src="/img/img1.PNG" width="20%" height="20%">
-<p>A user can run this plugin by placing it in the python path as:</p>
-<img src="/img/img2.PNG" width="40%" height="40%">
-<p>All of the default pylint checkers exist in pylint.checkers.Pylint tries hard to report as few false positives as
+<img src="/img/img1.PNG" width="20%" height="20%" style=" margin : 0px 50px">
+<p class = "indent">A user can run this plugin by placing it in the python path as:</p>
+<img src="/img/img2.PNG" width="40%" height="40%" style=" margin : 0px 50px">
+<p class = "indent">All of the default pylint checkers exist in pylint.checkers.Pylint tries hard to report as few false positives as
   possible for errors, but it may be too verbose with warnings.</p>
-<h2>Glossary:</h2>
-<p>Instantiation - the realization of a predefined object</p>
-<p>Objects - the units of code that are data structure of a class</p>
-<p>Class - just like a blueprint for creating objects </p>
-<p>A namespace - group of related elements that each have a unique name or identifier for example a path of any file</p>
-<p>Constructor- constructor is declared when a class is created</p>
-<p>Fixture - a test class in a program is called fixture</p>
-<p>Type hint - providing hints to function to only accept the given data type</p>
-<p>Type cast - assign a value of one data type to another type</p>
-<p>Unit test - developers create tests cases to cover all possible states and configurations of the software units in order to discover bugs</p>
-<p>Facade - Structural Design pattern that provides a simpler unified interface to a more complex system</p>
-<p>Method - a procedure associated with a message and an object</p>
+<h2 class="space">Glossary:</h2>
+<p class = "indent">Instantiation - the realization of a predefined object</p>
+<p class = "indent">Objects - the units of code that are data structure of a class</p>
+<p class = "indent">Class - just like a blueprint for creating objects </p>
+<p class = "indent">A namespace - group of related elements that each have a unique name or identifier for example a path of any file</p>
+<p class = "indent">Constructor- constructor is declared when a class is created</p>
+<p class = "indent">Fixture - a test class in a program is called fixture</p>
+<p class = "indent">Type hint - providing hints to function to only accept the given data type</p>
+<p class = "indent">Type cast - assign a value of one data type to another type</p>
+<p class = "indent">Unit test - developers create tests cases to cover all possible states and configurations of the software units in order to discover bugs</p>
+<p class = "indent">Facade - Structural Design pattern that provides a simpler unified interface to a more complex system</p>
+<p class = "indent">Method - a procedure associated with a message and an object</p>
 </body>
 </html>

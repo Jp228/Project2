@@ -1,33 +1,54 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html class="no-js" lang="">
+
 <head>
   <meta charset="UTF-8">
   <title>Article 2</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="icon" href="/img/pytest.png">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
 </head>
-<body>
-<ul>
+
+<ul class = "tabs" style = "margin: 25px 0px">
     <li><a href="index.html">About Us</a></li>
     <li><a href="part1.html">Article 1</a></li>
-    <li><a href="part2.html">Our Products</a></li>
+    <li><a href="part2.html">Article 2</a></li>
+  <li><a href = "part3.html">Article 3</a></li>
+  <li><a href = "part4.html">Article 4</a></li>
   </ul>
-<h2>What is AAA testing?</h2>
-<p>A test is an operation for software programs to determine if they are correct or not. There are more than one type of
+
+<body>
+
+<h2 class = "space">What is AAA testing?</h2>
+<p class = "indent">A test is an operation for software programs to determine if they are correct or not. There are more than one type of
   tests for example; unit tests, integration tests and more but all of them report whether the program passes or fails.
   AAA pattern stands for Arrange, Act and Assert.</p>
-<p>The first step of the AAA pattern is Arrange which inputs and targets. Arrange steps set up the test case. Act calls
+<p class = "indent">The first step of the AAA pattern is Arrange which inputs and targets. Arrange steps set up the test case. Act calls
   a function or method, calling a REST API, or interacting with a web page. Act targets on the behavior. Assertion is
   the last step of the test. Assert steps tell the user if the function or method passed or failed. Depending on the
   function, assertions may check simple things like numbers or string values. Assertion determines and tests if the
   function or program failed or passed. </p>
-<p>A simple example of AAA pattern testing is provided below. </p>
+<p class = "indent">A simple example of AAA pattern testing is provided below. </p>
 
 <p>def test_abs_for_a_negative_number():</p>
-<p># Arrange</p>
-<p>negative = -5</p>
-<p># Act</p>
-<p>answer = abs(negative)</p>
-<p># Assert</p>
-<p>assert answer == 5</p>
+<ul># Arrange</ul>
+<li class = "indent">negative = -5</li>
+<ul># Act</ul>
+<li class = "indent">answer = abs(negative)</li>
+<ul># Assert</ul>
+<li class = "indent">assert answer == 5</li>
 
 </body>
 </html>
